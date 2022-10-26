@@ -20,6 +20,7 @@ public class TestAPI {
         System.out.println(response.getStatusLine());
         System.out.println(response.getHeader("content-type"));
         System.out.println(response.getTime());
+        System.out.println("Test GetList");
 
         int actual = response.getStatusCode();
         Assert.assertEquals(actual, 200);
@@ -31,6 +32,7 @@ public class TestAPI {
                 .when()
                 .get("https://mern-backend-8881.herokuapp.com/products/62e20e5bf0e24546b900e053")
                 .then().statusCode(200);
+        System.out.println("Test Get Single");
     }
     @Test
     public void testPut() {
@@ -49,6 +51,7 @@ public class TestAPI {
                 .then()
                 .statusCode(404)
                 .log().all();
+        System.out.println("Test Put");
     }
     @Test
     public void testPatch() {
@@ -67,6 +70,7 @@ public class TestAPI {
                 .then()
                 .statusCode(404)
                 .log().all();
+        System.out.println("Test Patch");
     }
 
     @Test
@@ -77,6 +81,7 @@ public class TestAPI {
                 .then()
                 .statusCode(200)
                 .log().all();
+        System.out.println("Test Delete");
 
     }
 
