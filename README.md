@@ -1,11 +1,11 @@
 ## JuaraCoding REST API Testing
 ### Method Get
-![alt text](screenshot/Method Get.png)
+![alt text](screenshot/MethodGet.png)
 ### Method Post
-![alt text](screenshot/Method Post.png)
+![alt text](screenshot/MethodPost.png)
 ### Method Put
-![alt text](screenshot/Method Put.png)
+![alt text](screenshot/MethodPut.png)
 ### Method DELETE
-![alt text](screenshot/Method Delete.png)
+![alt text](screenshot/MethodDelete.png)
 
 
